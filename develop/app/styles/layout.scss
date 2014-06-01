@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import "base.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+#all {
+	width:640px;
+	height:650px;
+	margin: 0 auto;
+	/*overflow:hidden;*/
+	background:#F8ECC9;
+}
+
+#character {
+	float:left;
+	width:240px;
+	height:650px;
+	background:#EB9F9F;
+}
+
+/*-------------------------------------------------------------------------
+	Contents
+/*-----------------------------------------------------------------------*/
+#contents {
+	position:relative;
+	float:left;
+	width:400px;
+	overflow:hidden;
+}
+
+/*-------------------------------------------------------------------------
+	selectTitle
+/*-----------------------------------------------------------------------*/
+#selectTitle {
+	width:400px;
+	height:650px;
+	position:relative;
+}
+
+	#selectTitle ul {
+		position:absolute;
+		left:50px;
+		top:220px;
+	}
+
+	#selectTitle li {
+		width:280px;
+		min-height: 40px;
+		line-height:40px;
+		margin-bottom:40px;
+		padding:10px;
+		text-align:center;
+		background:#EB9F9F;
+		cursor:pointer;
+		border-radius: 10px;
+	    -webkit-border-radius: 10px;
+	    -moz-border-radius: 10px;
+	}
+
+/*-------------------------------------------------------------------------
+	Article
+/*-----------------------------------------------------------------------*/
+#article {
+}
+
+	#article dl {
+		width:320px;
+		margin:20px;
+		margin-bottom:40px;
+		padding:20px;
+		background:#fff;
+	}
+
+	#article dl dt {
+		font-size: 1.2rem;
+		margin-bottom:10px;
+	}
+
+	#article dl dd.text {
+		margin-bottom:10px;
+		font-size: .8rem;
+	}
+
+	#article dl dd.url {
+		font-size: .8rem;
+	}
